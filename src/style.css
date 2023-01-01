@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+  font-family: 'Montserratt';
+  src: url(./assets/fonts/Montserrat.ttf);
+}
 
 body {
   background-color: #161616;
@@ -9,8 +12,7 @@ header{
   display: flex;
   justify-content: space-between;
   height: 100px;
-  font-family: Montserrat;
-  font-weight: bold;
+  font-family: Montserratt;
   padding-left: 100px;
   padding-right: 100px;
   border-bottom: solid 1px white;
