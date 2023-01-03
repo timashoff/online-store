@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'Montserratt';
-    src: url(./assets/fonts/Montserrat.ttf);
-  }
-  
-  body {
-    background-color: #161616;
-    color: white;
-  }
-  
-  a {
-    color: white !important;
-    text-decoration: none
-  }
-  
-  .githubs{
+.githubs{
     list-style: none;
     margin: auto;
   }

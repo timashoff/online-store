@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Montserratt';
-    src: url(./assets/fonts/Montserrat.ttf);
-  }
-  
-  body {
-    background-color: #161616;
-    color: white;
-  }
-  
   header{
     display: flex;
     justify-content: space-between;
@@ -20,11 +10,6 @@
     vertical-align: middle;
   }
   
-  a {
-    color: white !important;
-    text-decoration: none
-  }
-  
   .logo{
     height: 70px;
     margin-top: 10px;
@@ -35,7 +20,7 @@
   }
   
   .cart-wrapper{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/icons%2Fcart.svg?alt=media&token=2eb54431-b16e-4ff1-b08d-ec133efbf6e8");
+    background-image: url("./assets/icons/cart.svg");
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
