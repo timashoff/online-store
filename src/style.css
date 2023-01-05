@@ -2,3 +2,4 @@
 @import "./header-style.css";
 @import "./footer-style.css";
 
+@import './pages/product/product.css'
