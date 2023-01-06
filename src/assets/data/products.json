@@ -1,0 +1,255 @@
+{
+    "products":[
+        {
+            "id" : 1,
+            "title" : "Intel Celeron G1820 Haswell",
+            "description" : "2-ядерный процессор, Socket LGA1150, частота 2700 МГц, объем кэша L2/L3: 512 Кб/3072 Кб, ядро Haswell (2013), техпроцесс 27 нм, интегрированное графическое ядро, встроенный контроллер памяти",
+            "price" : 56,
+            "stock" : 94,
+            "brand" : "Intel",
+            "categoty" : "cpu",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fceleron.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fceleron2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 2,
+            "title" : "AMD Ryzen 7 2700 Pinnacle Ridge",
+            "description" : "8-ядерный процессор, Socket AM4, частота 3400 МГц, объем кэша L2/L3: 2048 КБ/12288 КБ, ядро ZEN+, техпроцесс 14 нм, интегрированное графическое ядро, встроенный контроллер памяти",
+            "price" : 270,
+            "stock" : 53,
+            "brand" : "AMD",
+            "categoty" : "cpu",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fryzen7.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fryzen72.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 3,
+            "title" : "Intel Core i5-4690 Haswell",
+            "description" : "4-ядерный процессор, Socket LGA1150, частота 3500 МГц, объем кэша L2/L3: 1024 КБ/6144 КБ, ядро Haswell (2013), техпроцесс 22 нм, интегрированное графическое ядро, встроенный контроллер памяти ",
+            "price" : 145,
+            "stock" : 67,
+            "brand" : "Intel",
+            "categoty" : "cpu",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fi5.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fi52.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 4,
+            "title" : "Intel Core i7-9700 Coffee Lake",
+            "description" : "8-ядерный процессор, Socket LGA1151 v2, частота 3000 МГц, объем кэша L2/L3: 2048 КБ/12288 КБ, ядро Coffee Lake, техпроцесс 14 нм, интегрированное графическое ядро, встроенный контроллер памяти",
+            "price" : 289,
+            "stock" : 34,
+            "brand" : "Intel",
+            "categoty" : "cpu",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fi7.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fi72.jpeg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 5,
+            "title" : "AMD Ryzen 5 2600 Pinnacle Ridg",
+            "description" : "4-ядерный процессор, Socket AM4, частота 3400 МГц, объем кэша L2/L3: 1024 КБ/6144 КБ, ядро ZEN+ (2018), техпроцесс 14 нм, встроенный контроллер памяти ",
+            "price" : 159,
+            "stock" : 58,
+            "brand" : "AMD",
+            "categoty" : "cpu",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fryzen5.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fryzen52.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 6,
+            "title" : "Samsung DDR4 2666 4GB",
+            "description" : "1 модуль памяти DDR4, объем модуля 4 ГБ, форм-фактор DIMM, 288-контактный, частота 2666 МГц, PC4-21300, тайминги: 19-19-19, комплектация ОЕМ ",
+            "price" : 22,
+            "stock" : 78,
+            "brand" : "Samsung",
+            "categoty" : "ram",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung4DDR4.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung4DDR4.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]  
+        },
+        {
+            "id" : 7,
+            "title" : "Hynix DDR4 2400 8GB",
+            "description" : "1 модуль памяти DDR4, объем модуля 8 ГБ, форм-фактор DIMM, 288-контактный, частота 2400 МГц, CAS Latency (CL): 17", 
+            "price" : 39,
+            "stock" : 2,
+            "brand" : "Hynix",
+            "categoty" : "ram",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fhynix8DDR4.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fhynix8DDR42.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]  
+        },
+        {
+            "id" : 8,
+            "title" : "Samsung DDR4 2666 16GB",
+            "description" : "1 модуль памяти DDR4, объем модуля 16 ГБ, форм-фактор SODIMM, 260-контактный, частота 2666 МГц, CAS Latency (CL): 19",
+            "price" : 68,
+            "stock" : 11,
+            "brand" : "Samsung",
+            "categoty" : "ram",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung16DDR4.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93g","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung16DDR42.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93g"] 
+        },
+        {
+            "id" : 9,
+            "title" : "Kingston DDR3 1333 2GB",
+            "description" : "1 модуль памяти DDR3, объем модуля 2 ГБ, форм-фактор SODIMM, 322-контактный, частота 1333 МГц, CAS Latency (CL): 9",
+            "price" : 15,
+            "stock" : 59,
+            "brand" : "Kingston",
+            "categoty" : "ram",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fkingston2DDR3.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fkingston2DDR32.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 10,
+            "title" : "Samsung DDR4 2666 64GB",
+            "description" : "Модуль памяти 64Gb DDR4 LRDimm Samsung (2666Mhz, CL19) 1.2V original",
+            "price" : 169,
+            "stock" : 3,
+            "brand" : "Samsung",
+            "categoty" : "ram",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung64DDR4.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung64DDR42.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 11,
+            "title" : "Creative Sound Blaster Omni Surround 5.1",
+            "description" : "Внешняя звуковая карта с интерфейсом USB 2.0, вывод многоканального звука, 6 аналоговых аудиовыходов, ЦАП 24 бит / 96 кГц ",
+            "price" : 98,
+            "stock" : 13,
+            "brand" : "Creative",
+            "categoty" : "sound-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blaster5.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blaster52.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 12,
+            "title" : "Creative Sound Blaster Play! 2",
+            "description" : "интерфейс USB 1.1, аналоговые аудиовыходы: стерео, ЦАП 16 бит / 48 кГц",
+            "price" : 45,
+            "stock" : 28,
+            "brand" : "Creative",
+            "categoty" : "sound-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blaster2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blaster22.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 13,
+            "title" : "Creative Sound Blaster X7 Limited Edition",
+            "description" : "интерфейс USB 3.0, вывод многоканального звука, аналоговые аудиовыходы: 6, ASIO v. 2.0, ЦАП 24 бит / 192 кГц ",
+            "price" : 289,
+            "stock" : 5,
+            "brand" : "Creative",
+            "categoty" : "sound-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterx7.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterx72.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 14,
+            "title" : "Creative Sound Blaster Audigy Rx",
+            "description" : "Sound Blaster Audigy Rx — Оптимальное записывающее решение среди звуковых карт PCIe. Благодаря продвинутому чипсету, предназначенному для использования совместно с технологией реверберации EAX, Вы сможете насладиться уникальным 7.1- канальным звуком",
+            "price" : 82,
+            "stock" : 209,
+            "brand" : "Creative",
+            "categoty" : "sound-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterrx.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterrx2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 15,
+            "title" : "Creative Sound Blaster Zx",
+            "description" : "интерфейс PCI-E, вывод многоканального звука, аналоговые аудиовыходы: 6, ASIO v. 2.0, ЦАП 24 бит / 192 кГц, Пульт ДУ  ",
+            "price" : 127,
+            "stock" : 156,
+            "brand" : "Creative",
+            "categoty" : "sound-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterzx.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsound-blasterzx2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 16,
+            "title" : "SSD 512GB Intel 545s Series",
+            "description" : "SSD диск для ноутбука и настольного компьютера, объем 512 ГБ, форм-фактор 2.5, интерфейс SATA 3.0, 3D2, TLC",
+            "price" : 108,
+            "stock" : 98,
+            "brand" : "Intel",
+            "categoty" : "ssd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fintel545s.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fintel545s2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 17,
+            "title" : "SSD 240GB Kingston SUV500",
+            "description" : "SSD диск для ноутбука и настольного компьютера, объем 240 ГБ, форм-фактор 2.5, интерфейс SATA 6Gb/s ",
+            "price" : 56,
+            "stock" : 236,
+            "brand" : "Kingston",
+            "categoty" : "ssd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fkingstonuv500.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fkingstonuv5002.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 18,
+            "title" : "SSD Kingston 120GB HyperX Fury",
+            "description" : "Благодаря контроллеру SandForce® SF-2281 с интерфейсом SATA 3.0 (6 Гб/с) и скоростью чтения/записи на уровне 500/500 Мб/с1, вы сможете быстрее загружать игровые карты и новые уровни с увеличенной частотой обновления кадров ",
+            "price" : 70,
+            "stock" : 187,
+            "brand" : "Kingston",
+            "categoty" : "ssd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FkingstonFURY120.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FkingstonFURY1202.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 19,
+            "title" : "Samsung 970 PRO 1TB",
+            "description" : "SSD диск для ноутбука и настольного компьютера, форм-фактор 2280, Разъем M.2, интерфейс PCI-E NVMe 1.3, объем 1024 Гб",
+            "price" : 290,
+            "stock" : 149,
+            "brand" : "Samsung",
+            "categoty" : "ssd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung1TB970.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung1TB9702.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"] 
+        },
+        {
+            "id" : 20,
+            "title" : "Samsung 860 QVO 4TB",
+            "description" : "V-NAND 4bit MLC, Объем 4000 ГБ, форм-фактор 2.5, интерфейс SATA 6Gbit/s",
+            "price" : 469,
+            "stock" : 28,
+            "brand" : "Samsung",
+            "categoty" : "ssd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung4TB860.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2Fsamsung4TB8602.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 21,
+            "title" : "Palit GeForce GTX 1060 6GB",
+            "description" : "видеокарта NVIDIA GeForce GTX 1060, 6144 Мб видеопамяти GDDR5, частота ядра/памяти: 1506/8000 МГц, разъемы DVI, HDMI, DisplayPort x3, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
+            "price" : 190,
+            "stock" : 270,
+            "brand" : "Nvidia",
+            "categoty" : "video-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FpalitGTX1060.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FpalitGTX10602.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 22,
+            "title" : "Gainward GeForce GTX 1070Ti 8GB",
+            "description" : "видеокарта NVIDIA GeForce GTX 1070ti, 8192 Мб видеопамяти GDDR5, частота ядра/памяти: 1506/8000 МГц, разъемы DVI, HDMI, DisplayPort x3, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
+            "price" : 400,
+            "stock" : 105,
+            "brand" : "Nvidia",
+            "categoty" : "video-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FgainwardGTX1070ti.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FgainwardGTX1070ti2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 23,
+            "title" : "SAPPHIRE NITRO Radeon RX 580 8GB",
+            "description" : "Видеокарта SAPPHIRE NITRO Radeon RX 580 8GB - обновлённая версия Radeon RX 480, построенная на GPU Ellesmere из семейства AMD Polaris, обеспечивает плавный игровой процесс в разрешении 1440p",
+            "price" : 390,
+            "stock" : 129,
+            "brand" : "AMD",
+            "categoty" : "video-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroRX580.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroRX5802.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 24,
+            "title" : "XFX Radeon R7 240 2GB",
+            "description" : "Низкопрофильная видеокарта XFX RADEON R7 240 2GB на основе архитектуры GCN идеальное бюджетное решение для офиса и дома. Не требует дополнительного питания. ",
+            "price" : 98,
+            "stock" : 92,
+            "brand" : "AMD",
+            "categoty" : "video-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FxfxR7240.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FxfxR72402.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 25,
+            "title" : "SAPPHIRE Nitro+ Radeon RX Vega 56 8GB",
+            "description" : "видеокарта AMD Radeon RX Vega 56, 8192 Мб видеопамяти HBM2, частота ядра/памяти: 1266/1600 МГц, поддержка режима SLI/CrossFire, разъемы HDMI, DisplayPort x2, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
+            "price" : 470,
+            "stock" : 79,
+            "brand" : "AMD",
+            "categoty" : "video-card",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroVEGA56.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroVEGA562.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        }
+    ]
+}
+
