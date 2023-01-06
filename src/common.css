@@ -35,3 +35,10 @@ body {
   color: white !important;
   text-decoration: none
 } */
+
+main {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: 'JetBrains Mono', monospace;
+  padding: 100px;
+}

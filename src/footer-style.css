@@ -4,7 +4,6 @@
   }
   
   footer{
-    font-family: Montserratt;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
@@ -15,10 +14,16 @@
   }
   
   .rs-logo{
-    width: 200px;
     margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
   
+  .rs-school{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
   .app-name{
     margin: auto;
     flex-grow: 1;
