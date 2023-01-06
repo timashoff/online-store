@@ -1,4 +1,6 @@
-.bg-shadow{
+@import '../../common.css';
+
+.bg-shadow {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -9,7 +11,7 @@
     left: 0;
 }
 
-.modal-wrapper{
+.modal-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +24,7 @@
     margin: auto;
 }
 
-.modal-input{
+.modal-input {
     width: 700px;
     height: 60px;
     border: 2px solid var(--font-color);
@@ -32,7 +34,7 @@
     margin: 20px auto;
 }
 
-.card-wrapper{
+.card-wrapper {
     padding: 60px 40px;
     display: flex;
     flex-direction: column;
@@ -42,33 +44,33 @@
     margin: 30px auto
 }
 
-.card-number{
+.card-number {
     display: flex;
     justify-content: space-between;
 }
 
-.card-img{
+.card-img {
     width: 100px;
     display: inline;
 }
 
-#card-number-input{
+#card-number-input {
     width: 400px;
     height: 50px;
 }
 
-#valid-input{
-    width: 200px;
+#valid-input {
+    width: 300px;
     height: 40px;
     margin-right: 40px;
 }
 
-#cvv-input{
+#cvv-input {
     width: 300px;
     height: 40px;
 }
 
-.confirm-but{
+.confirm-but {
     background-color: var(--orange-color);
     color: white;
     font-size: 2rem;
@@ -80,7 +82,7 @@
     border-radius: 20px;
 }
 
-.confirm-but:hover{
+.confirm-but:hover {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--font-color);
