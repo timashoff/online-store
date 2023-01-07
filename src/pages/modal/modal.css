@@ -1,5 +1,6 @@
 @import '../../common.css';
 
+
 .bg-shadow {
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@
     text-align: center;
     height: 900px;
     margin: auto;
+    font-size: var(--title-font-size);
 }
 
 .modal-input {
@@ -29,9 +31,16 @@
     height: 60px;
     border: 2px solid var(--font-color);
     border-radius: 20px;
-    font-size: 2rem;
+    font-size: var(--title-font-size);
     text-align: center;
     margin: 20px auto;
+}
+
+::placeholder {
+    font-size: var(--title-font-size);
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 30px;
+    text-align: center;
 }
 
 .card-wrapper {

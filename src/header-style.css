@@ -2,12 +2,13 @@ header {
   display: flex;
   justify-content: space-between;
   height: 100px;
-  font-family: Montserratt;
   padding-left: 100px;
   padding-right: 100px;
   border-bottom: solid 1px white;
-  font-size: 28px;
+  font-size: var(--title-font-size);
   vertical-align: middle;
+  background-color: var(--font-color);
+  color: var(--bg-color);
 }
 
 .logo {
@@ -28,6 +29,7 @@ header {
   position: relative;
 }
 
+
 .purchased {
   position: absolute;
   right: 20px;
@@ -42,4 +44,5 @@ header {
 
 .purchased-items {
   margin: auto;
+  color: var(--bg-color);
 }
