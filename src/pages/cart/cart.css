@@ -1,5 +1,12 @@
 @import '../../common.css';
 
+main {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'JetBrains Mono', monospace;
+    padding: 100px;
+}
+
 .cart-page {
     display: flex;
     justify-content: space-between;
@@ -19,10 +26,10 @@
     display: flex;
     justify-content: space-between;
     height: 70px;
-    border: solid 1px var(--font-color);
     border-radius: 20px;
     padding: 0px 20px;
     flex-grow: 1;
+    font-size: var(--title-font-size);
 }
 
 .cart-pages {
@@ -43,19 +50,18 @@
     width: 40px;
     height: 40px;
     margin: auto 10px;
-    border: solid var(--font-color) 1px;
+    border: solid var(--font-color) 2px;
     border-radius: 10px;
 }
 
 .custom-h {
-    font-size: 2rem;
+    font-size: var(--title-font-size);
     font-weight: bold;
     margin: auto 0;
 }
 
 .current-page {
     margin: auto;
-    font-size: 28px;
     font-weight: bold;
 }
 
@@ -63,7 +69,7 @@
     width: 40px;
     height: 40px;
     margin: auto 10px;
-    font-size: 32px;
+    font-size: var(--title-font-size);
     border-radius: 10px;
     font-weight: bold;
 }
@@ -72,7 +78,6 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    border-bottom: solid 1px var(--font-color);
     border-radius: 20px;
 }
 
@@ -101,7 +106,7 @@
 }
 
 .custom-h2 {
-    font-size: 1.5rem;
+    font-size: var(--main-info-font-size);
     font-weight: bold;
     margin: auto 0;
 }
@@ -136,7 +141,6 @@
     display: flex;
     justify-content: center;
     height: 70px;
-    border: solid 1px var(--font-color);
     border-radius: 20px;
     padding: 0px 20px;
     margin-bottom: 20px;
@@ -146,11 +150,13 @@
     width: 90%;
     height: 60px;
     border-radius: 20px;
-    margin: 20px;
+    margin: auto;
+    font-size: var(--main-info-font-size);
+    padding: 20px;
 }
 
 ::placeholder {
-    font-size: 28px;
+    font-size: var(--main-info-font-size);
     font-family: 'JetBrains Mono', monospace;
     margin-left: 30px;
     text-align: center;

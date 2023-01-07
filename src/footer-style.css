@@ -4,14 +4,14 @@
 }
 
 footer {
-  font-family: Montserratt;
-  font-size: 24px;
+  font-size: var(--title-font-size);
   display: flex;
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
   border-top: solid 2px white;
   height: 120px;
+  background-color: var(--font-color);
 }
 
 .rs-logo {
@@ -23,7 +23,7 @@ footer {
   margin: auto;
   flex-grow: 1;
   text-align: center;
-  font-size: 28px;
+  color: var(--bg-color);
 }
 
 .git-logo {
@@ -33,9 +33,9 @@ footer {
 
 .git-link {
   display: table;
-  font-size: 24px;
 }
 
 .git {
   margin: auto;
+  color: var(--bg-color);
 }
