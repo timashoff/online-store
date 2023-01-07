@@ -1,46 +1,41 @@
-.githubs{
-    list-style: none;
-    margin: auto;
-  }
-  
-  footer{
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-top: solid 2px white;
-    height: 120px;
-  }
-  
-  .rs-logo{
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .rs-school{
-    font-size: 2rem;
-    font-weight: bold;
-  }
+.githubs {
+  list-style: none;
+  margin: auto;
+}
 
-  .app-name{
-    margin: auto;
-    flex-grow: 1;
-    text-align: center;
-    font-size: 28px;
-  }
-  
-  .git-logo{
-    margin-right: 10px ;
-    vertical-align: middle;
-  }
-  
-  .git-link{
-    display: table;
-    font-size: 24px;
-  }
-  
-  .git{
-    margin: auto;
-  }
+footer {
+  font-family: Montserratt;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-top: solid 2px white;
+  height: 120px;
+}
+
+.rs-logo {
+  width: 200px;
+  margin: auto;
+}
+
+.app-name {
+  margin: auto;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28px;
+}
+
+.git-logo {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.git-link {
+  display: table;
+  font-size: 24px;
+}
+
+.git {
+  margin: auto;
+}

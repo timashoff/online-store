@@ -1,24 +1,25 @@
-  header{
+  header {
     display: flex;
     justify-content: space-between;
     height: 100px;
+    font-family: Montserratt;
     padding-left: 100px;
     padding-right: 100px;
     border-bottom: solid 1px white;
     font-size: 28px;
     vertical-align: middle;
   }
-  
-  .logo{
+
+  .logo {
     height: 70px;
     margin-top: 10px;
   }
-  
-  .total{
+
+  .total {
     margin: auto;
   }
-  
-  .cart-wrapper{
+
+  .cart-wrapper {
     background-image: url("./assets/icons/cart.svg");
     background-repeat: no-repeat;
     width: 100px;
@@ -26,8 +27,8 @@
     display: flex;
     position: relative;
   }
-  
-  .purchased{
+
+  .purchased {
     position: absolute;
     right: 20px;
     border: solid 2px white;
@@ -38,7 +39,7 @@
     display: flex;
     justify-content: center;
   }
-  
-  .purchased-items{
+
+  .purchased-items {
     margin: auto;
   }

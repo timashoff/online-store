@@ -1,6 +1,6 @@
 @import "./common.css";
 @import "./header-style.css";
 @import "./footer-style.css";
-@import "./pages/cart/cart.css"
-
-@import './pages/product/product.css'
+@import "./pages/cart/cart.css";
+@import './pages/product/product.css';
+@import "./page/404/404.css";

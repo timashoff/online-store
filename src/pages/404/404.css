@@ -1,0 +1,92 @@
+@import '../../common.css';
+
+main {
+    background-image: url(https://img.freepik.com/premium-vector/big-empty-room-with-lighting_755228-1515.jpg?w=2000);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notfound-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-404 {
+    font-size: 15rem;
+}
+
+.description-404 {
+    font-size: 5rem;
+}
+
+.return-but {
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.return-but:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--font-color);
+    transition: 0.5s;
+    cursor: pointer;
+    border: solid 5px var(--font-color);
+}
+
+
+
+/* @font-face {
+    src: url(./assets/fonts/JetBrainsMono-Regular.ttf);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+}
+
+a {
+    color: white !important;
+    text-decoration: none
+}
+*/
+
+main {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'JetBrains Mono', monospace;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .custom-h {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.custom-h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto 0;
+} */
+
+/* ::placeholder {
+    font-size: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 30px;
+    text-align: center;
+} */
