@@ -1,4 +1,6 @@
 @import '../../common.css';
+@import '../../header-style.css';
+@import '../../footer-style.css';
 
 /* CSS for Product Page */
 .product-page {
