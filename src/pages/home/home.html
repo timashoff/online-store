@@ -1,0 +1,197 @@
+<div class="main-wrapper">
+  <div class="filters-wrapper">
+    <div class="filters-btns">
+      <button class="filter-btn" id="reset-filters">Reset Filters</button>
+
+      <button class="filter-btn" id="copy-link">Copy Link</button>
+    </div>
+
+    <div class="filters-block">
+      <span class="filters-title">Category</span>
+
+      <div class="filter">
+        <span class="filter-line">
+          <input class="filter-check" type="checkbox" id="smartphones"> smartphones
+        </span>
+        <span class="amount">(5/5)
+      </div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="smartphones">smartphones</span><span class="amount">(5/5)
+      </div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="smartphones">smartphones</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="smartphones">smartphones</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="smartphones">smartphones</span><span class="amount">(5/5)</div>
+    </div>
+
+    <div class="filters-block">
+      <span class="filters-title">Brand</span>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+
+      <div class="filter"><span class="filter-line"><input type="checkbox" class="filter-check"
+            id="Apple">Apple</span><span class="amount">(5/5)</div>
+    </div>
+
+    <div class="filters-block">
+      <span class="filters-title">Price</span>
+
+      <div class="form_control">
+        <div class="form_control_container">
+          $ <input class="fromInputPrice" type="number" id="fromInput" value="0" min="0" max="1000" />
+        </div>
+
+        <div class="form_control_container">
+          $ <input class="toInputPrice" type="number" id="toInput" value="1000" min="0" max="1000" />
+        </div>
+      </div>
+
+      <div class="sliders_control">
+        <input class="fromSliderPrice" id="fromSlider" type="range" value="0" min="0" max="1000" />
+
+        <input class="toSliderPrice" id="toSlider" type="range" value="1000" min="0" max="1000" />
+      </div>
+    </div>
+
+    <div class="filters-block">
+      <span class="filters-title">Stock</span>
+
+      <div class="form_control">
+        <div class="form_control_container">
+          $ <input class="fromInputStock" type="number" id="fromInput" value="0" min="0" max="1000" />
+        </div>
+
+        <div class="form_control_container">
+          $ <input class="toInputStock" type="number" id="toInput" value="1000" min="0" max="1000" />
+        </div>
+      </div>
+
+      <div class="sliders_control">
+        <input class="fromSliderStock" id="fromSlider" type="range" value="0" min="0" max="1000" />
+
+        <input class="toSliderStock" id="toSlider" type="range" value="1000" min="0" max="1000" />
+      </div>
+    </div>
+  </div>
+
+  <div class="products-list-wrapper">
+    <div class="products-list-header">
+      <select name="Sort Options" class="sort-list">
+        <option selected disabled hidden>Sort Options</option>
+
+        <option value="price-min-max" class="sort-option">By price min-max</option>
+
+        <option value="price-max-min" class="sort-option">By price max-min</option>
+
+        <option value="by alphabet a-z" class="sort-option">By alphabet a-z</option>
+
+        <option value="by alphabet z-a" class="sort-option">By alphabet z-a</option>
+      </select>
+      <span class="found">Found:100</span>
+
+      <input type="text" placeholder="Search product" class="search">
+
+      <span class="layout">
+        <img class="layout-img" id="squares" src="../../assets/icons/squares.svg">
+
+        <img class="layout-img" id="lines" src="../../assets/icons/lines.svg">
+      </span>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <span class="product-title">Apple Macbook Pro 14</span>
+        <span class="product-rating">Rating:4.5</span></span>
+        <span class="product-price">$1599</span>
+        <button class="product-button" id="add-to-cart">Add to cart</button>
+        <button class="product-button" id="buy-btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+</div>

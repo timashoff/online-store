@@ -1,7 +1,15 @@
 import { header } from './components/header';
 import { footer } from './components/footer';
 import { addElement } from './utils/addElement';
+import { render } from './utils/router';
 import './style.css';
+
+
+function onLoadFunctions() {
+  render();
+}
+
+document.addEventListener('DOMContentLoaded', onLoadFunctions);
 
 const HEADER = document.querySelector('header');
 const FOOTER = document.querySelector('footer');
