@@ -1,22 +1,27 @@
+footer{  
+  display: flex;
+  justify-content: center;
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  font-size: var(--main-info-font-size); 
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+}
+
 .githubs {
   list-style: none;
   margin: auto;
 }
 
-.footer>div {
-  font-size: var(--title-font-size);
-  display: flex;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
-  border-top: solid 2px white;
-  height: 120px;
-  background-color: var(--font-color);
-}
-
 .rs-logo {
-  width: 200px;
+  color: var(--bg-color);
   margin: auto;
+  font-size: var(--title-font-size);
+  font-weight: bold;
 }
 
 .app-name {

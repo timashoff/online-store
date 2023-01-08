@@ -1,14 +1,15 @@
-.header>div {
+header{  
   display: flex;
-  justify-content: space-between;
-  /* height: 100px; */
-  padding-left: 100px;
-  padding-right: 100px;
-  border-bottom: solid 1px white;
-  font-size: var(--title-font-size);
-  vertical-align: middle;
+  justify-content: center;
   background-color: var(--font-color);
   color: var(--bg-color);
+  font-size: var(--title-font-size); 
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
 }
 
 .logo {
