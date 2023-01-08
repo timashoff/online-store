@@ -1,6 +1,6 @@
 
-export function createHTMLTemplate(HTMLstring: string): Element | null {
-  const template = document.createElement('template');
-  template.innerHTML = HTMLstring;
-  return template.content.firstElementChild;
+export function createHTMLTemplate(HTMLstring: string): DocumentFragment | null {
+  let fragment = document.createDocumentFragment();
+  fragment = document.createRange().createContextualFragment(HTMLstring);
+  return fragment;
 }
