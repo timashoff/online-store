@@ -1,7 +1,7 @@
-header {
+.header>div {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  /* height: 100px; */
   padding-left: 100px;
   padding-right: 100px;
   border-bottom: solid 1px white;
@@ -21,7 +21,7 @@ header {
 }
 
 .cart-wrapper {
-  background-image: url("./assets/icons/cart.svg");
+  background-image: url("../../assets/icons/cart.svg");
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
