@@ -14,28 +14,43 @@ main {
 
 .filters-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
-    padding: 20px;
-    border: solid 1px var(--font-color);
-    border-radius: 20px;
     margin-right: 20px;
-    height: 850px;
-    flex-grow:1 ;
 }
 
 .filters-btns{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .filter-btn{
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: var(--main-info-font-size);
-    font-family: JetBrains Mono,monospace;
-    width: 190px;
-    margin: 10px;
+    font-family: JetBrains Mono, monospace;
+    display: block;
+    height: 40px;
+    background-color: var(--main-info-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 10px 30px;
+    width: 200px;
+}
+
+.filter-btn:active{
+    transform: scale(0.90);
+}
+
+.filter-btn:hover{
+    transition: 0.5s;
+    background-color: var(--main-info-color-hover);
+}
+
+#copy-link{
+    background-color: var(--orange-color);
 }
 
 .filters-block{
@@ -45,12 +60,20 @@ main {
     justify-content: center;
     text-align: center;
     border: solid 1px var(--font-color);
-    border-radius: 20px;
     padding: 10px;
 }
 
 .filters-title{
     font-size: var(--main-info-font-size);
+}
+
+.filters-list{
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.amount{
+    margin-right: 10px;
 }
 
 .filter{
@@ -147,9 +170,7 @@ input[type="range"] {
 .products-list-wrapper{
     display: flex;
     flex-direction: column;
-    border: solid 1px var(--font-color);
-    border-radius: 20px;
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 .products-list-header{
@@ -159,11 +180,17 @@ input[type="range"] {
 
 
 .sort-list{
-    padding: 10px;
-    font-size: var(--main-info-font-size);
-    font-family: JetBrains Mono,monospace;
-    border: solid 2px;
-    border-radius: 20px;
+    font-family: JetBrains Mono, monospace;
+    display: block;
+    height: 40px;
+    background-color: var(--main-info-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 10px 30px;
     text-align: center;
     appearance: none;
 }
@@ -178,11 +205,10 @@ input[type="range"] {
 }
 
 .search{
-    padding: 10px;
+    height: 40px;
     font-size: var(--main-info-font-size);
     text-align: center;
     border: 2px solid var(--font-color);
-    border-radius: 20px;
 }
 
 ::placeholder{
@@ -190,7 +216,7 @@ input[type="range"] {
 }
 
 .layout-img{
-    width: 50px;
+    width: 40px;
     cursor: pointer;
 }
 
@@ -205,20 +231,18 @@ input[type="range"] {
     display: flex;
     text-align: center;
     align-items: center;
-    margin: 10px;
-    padding: 20px;
+    justify-content: space-between;
+    gap: 30px;
     padding-top: 0px;
-    flex: (200px,1fr);
-    /* width:23% ; */
 }
 
 .product-img{
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
 
 .product-title{
-    font-size: var(--title-font-size);
+    font-size: var(--main-info-font-size);
     font-weight: bold;
 }
 
@@ -236,7 +260,6 @@ input[type="range"] {
     font-family: JetBrains Mono, monospace;
     display: block;
     height: 40px;
-    margin: 20px;
     background-color: var(--main-info-color);
     color: #fff;
     font-size: 16px;
@@ -244,7 +267,7 @@ input[type="range"] {
     border: none;
     cursor: pointer;
     transition: all 0.2s ease;
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 .product-button:hover{
