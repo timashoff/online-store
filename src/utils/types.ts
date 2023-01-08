@@ -9,23 +9,23 @@ export type Product = {
   categoty: string,
   img: string[],
   discount?: number,
-}
+};
 
 export type Cart = {
   id: number[],
   amount: number[],
-}
+};
 
 export type Promocode = {
   name: string[],
   disount: number[],
-}
+};
 
 export type Filter = {
   price: number[],
   stock: number[],
   category: string[],
-}
+};
 
 export type Validation = {
   name: string,
@@ -35,4 +35,4 @@ export type Validation = {
   cardNumber: number,
   cardCVV: number,
   cardDate: string,
-}
+};
