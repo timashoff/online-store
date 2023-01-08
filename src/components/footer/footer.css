@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-footer {
+.footer>div {
   font-size: var(--title-font-size);
   display: flex;
   justify-content: space-between;
