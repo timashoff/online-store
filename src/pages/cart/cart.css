@@ -1,11 +1,9 @@
-@import '../../common.css';
-
-main {
+/* main {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: 'JetBrains Mono', monospace;
     padding: 100px;
-}
+} */
 
 .cart-page {
     display: flex;
