@@ -33,6 +33,13 @@ body {
   font-size: 1rem;
   display: flex;
   flex-direction: column;
+  background-color: var(--bg-color);
+}
+
+main {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 a:link, a:visited{
