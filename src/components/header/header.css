@@ -15,10 +15,15 @@ header{
 .logo {
   height: 70px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .total {
   margin: auto;
+}
+
+.cart{
+  cursor: pointer;
 }
 
 .cart-wrapper {

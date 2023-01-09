@@ -3,7 +3,7 @@ footer{
   justify-content: center;
   background-color: var(--font-color);
   color: var(--bg-color);
-  font-size: var(--main-info-font-size); 
+  font-size: var(--main-info-font-size);
 }
 
 .footer-wrapper{
