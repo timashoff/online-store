@@ -1,0 +1,78 @@
+<div class="cart-page">
+  <div class="cart-items">
+    <div class="cart-header">
+      <span class="custom-h">Products in cart</span class="custom-h">
+      <div class="cart-pages">
+        <div class="page-limit">
+          <span class="custom-h" class="limit-label">Limit:</span class="custom-h">
+          <input type="number" class="limit-number">
+        </div>
+        <div class="pages-control">
+          <span class="custom-h">Page:</span class="custom-h">
+          <button id="prev-page" class="custom-but">&lt;</button>
+          <span class="current-page">00</span>
+          <button id="next-page" class="custom-but">&gt;</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="purchased-product">
+      <span class="custom-h" id="product-number">1</span>
+      <div class="product">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <div class="product-info">
+          <span class="custom-h" id="product-title">Macbook Pro</span>
+          <p class="product-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti quidem fugiat optio
+            perspiciatis, maxime quas vitae debitis repellat omnis saepe
+          </p>
+          <span class="custom-h2">Rating:<span class="product-rating">5.0</span></span>
+        </div>
+      </div>
+      <div class="product-volume">
+        <span class="custom-h2">Stock:<span class="product-stock">00</span></span>
+        <div class="product-amount">
+          <button class="custom-but">-</button>
+          <span class="custom-h2" id="amount">0</span>
+          <button class="custom-but">+</button>
+        </div>
+        <span class="custom-h2">$<span id="price">999</span></span>
+      </div>
+    </div>
+
+    <div class="purchased-product">
+      <span class="custom-h" id="product-number">2</span>
+      <div class="product">
+        <img src="https://media.ldlc.com/r1600/ld/products/00/05/89/86/LD0005898675_1.jpg" class="product-img">
+        <div class="product-info">
+          <span class="custom-h" id="product-title">Macbook Pro</span>
+          <p class="product-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti quidem fugiat optio
+            perspiciatis, maxime quas vitae debitis repellat omnis saepe
+          </p>
+          <span class="custom-h2">Rating:<span class="product-rating">5.0</span></span>
+        </div>
+      </div>
+      <div class="product-volume">
+        <span class="custom-h2">Stock:<span class="product-stock">00</span></span>
+        <div class="product-amount">
+          <button class="custom-but" id="delete-product">-</button>
+          <span class="custom-h2" id="amount">0</span>
+          <button class="custom-but" id="add-product">+</button>
+        </div>
+        <span class="custom-h2">$<span id="price">999</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="summary">
+    <div class="summary-header">
+      <span class="custom-h">Summary</span class="custom-h">
+    </div>
+    <span class="custom-h">Products: <span class="custom-h" id="total-products">2</span></span>
+    <span class="custom-h">Total: $<span class="custom-h" id="total-price">1998</span></span>
+    <input type="text" class="promo-code" placeholder="Enter promo code">
+    <span class="custom-h2" id="test-promo">Promo for test: "RS", "EPM"</span>
+    <button class="buy-but">BUY NOW</button>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./modal.css">
+</head>
+
+<body>
+
+  <main id="main">
+    <div class="bg-shadow">
+      <div class="modal-wrapper">
+        <span class="custom-h">Personal details</span>
+
+        <input type="text" class="modal-input" id="name-input" placeholder="Name">
+
+        <input type="text" class="modal-input" id="phone-input" placeholder="Phone number">
+
+        <input type="text" class="modal-input" id="address-input" placeholder="Delivery address">
+
+        <input type="text" class="modal-input" id="email-input" placeholder="E-mail">
+
+        <span class="custom-h">Credit card details</span>
+
+        <div class="card-wrapper">
+          <div class="card-number">
+            <img src="../../assets/icons/visa.svg" class="card-img">
+            <input type="text" placeholder="Card number" class="modal-input" id="card-number-input">
+          </div>
+
+          <div class="card-number">
+            <span class="custom-h2">Valid: <input type="text" class="modal-input" id="valid-input"
+                placeholder="Valid Thru"></span>
+            <span class="custom-h2">CVV: <input type="text" class="modal-input" id="cvv-input"
+                placeholder="Code"></span>
+          </div>
+        </div>
+
+        <button class="confirm-but">CONFIRM</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

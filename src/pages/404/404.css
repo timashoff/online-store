@@ -1,0 +1,85 @@
+@import '../../common.css';
+
+.notfound-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-404 {
+    font-size: 15rem;
+}
+
+.description-404 {
+    font-size: 5rem;
+}
+
+.return-but {
+    font-family: JetBrains Mono, monospace;
+    display: block;
+    height: 60px;
+    background-color: var(--main-info-color);
+    color: #fff;
+    font-size: var(--main-info-font-size);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0px 20px;
+    margin: 10px;
+}
+
+#return-main{
+    background-color: var(--orange-color);
+}
+
+.return-but:hover {
+    transition: 0.5s;
+    background-color: var(--main-info-color-hover);
+}
+
+.return-but:active {
+    transform: scale(0.90);
+}
+
+
+/* @font-face {
+    src: url(./assets/fonts/JetBrainsMono-Regular.ttf);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+}
+
+a {
+    color: white !important;
+    text-decoration: none
+}
+*/
+
+
+
+
+/* .custom-h {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.custom-h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto 0;
+} */
+
+/* ::placeholder {
+    font-size: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 30px;
+    text-align: center;
+} */
