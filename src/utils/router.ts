@@ -1,4 +1,5 @@
 
+import { cart } from '../pages/cart';
 import { home } from '../pages/home/home';
 import { getHTMLElement } from './getHTMLElement';
 
@@ -9,10 +10,12 @@ const routes = [
     page: home(),
     path: '/',
   },
-  { path: '/cart' },
+  {
+    page: cart(),
+    path: '/cart',
+  },
   { path: '/product/id1' },
 ];
-
 
 export function render() {
   const route = routes.find(r => r.path === window.location.pathname);
