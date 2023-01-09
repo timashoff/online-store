@@ -1,4 +1,4 @@
-@import "../../common.css";
+/* @import '../../common.css'; */
 
 .home-wrapper {
   display: flex;
@@ -218,6 +218,7 @@ input[type="range"] {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 20px;
+  gap: 1rem;
 }
 
 .product-card {
@@ -229,6 +230,12 @@ input[type="range"] {
   width: 100%;
   gap: 30px;
   padding: 20px;
+  cursor: pointer;
+  /* background-color: #5d8ebf; */
+}
+
+.product-card:hover {
+  background-color: rgba(255, 166, 0, 0.2);
 }
 
 .product-img {
