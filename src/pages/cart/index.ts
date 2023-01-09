@@ -1,2 +1,0 @@
-export { cart } from './cart';
-
