@@ -1,13 +1,6 @@
 @import "../../common.css";
 
-main {
-    background-color: var(--bg-color);
-    color: var(--font-color);
-    font-family: 'JetBrains Mono', monospace;
-    padding: 50px;
-}
-
-.main-wrapper{
+.home-wrapper{
     display: flex;
     justify-content: space-between;
 }
