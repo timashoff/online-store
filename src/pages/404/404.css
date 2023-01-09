@@ -1,12 +1,5 @@
 @import '../../common.css';
 
-main {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .notfound-page {
     display: flex;
     flex-direction: column;
@@ -69,14 +62,7 @@ a {
 }
 */
 
-main {
-    background-color: var(--bg-color);
-    color: var(--font-color);
-    font-family: 'JetBrains Mono', monospace;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-}
+
 
 
 /* .custom-h {
