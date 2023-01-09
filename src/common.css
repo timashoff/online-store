@@ -38,7 +38,7 @@ main {
   padding: 100px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 a:link,
