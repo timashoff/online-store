@@ -36,3 +36,9 @@ export type Validation = {
   cardCVV: number,
   cardDate: string,
 };
+
+export type Routes = {
+  page: DocumentFragment;
+  actions: () => void;
+  path?: string;
+};
