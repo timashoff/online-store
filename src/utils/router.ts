@@ -38,8 +38,8 @@ export function render() {
       root.innerHTML = '';
       root.appendChild(page);
       route?.actions();
-    } else {
-      window.location.pathname = '/404';
-    }
+    } 
+  } else {
+    window.location.pathname = '/404';
   }
 }
