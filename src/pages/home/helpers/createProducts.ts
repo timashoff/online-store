@@ -45,6 +45,12 @@ export function createProducts() {
     item.append(btnCart);
     item.append(btnBuy);
 
+    item.addEventListener('click', function (event) {
+      if (event.target instanceof HTMLElement && !event.target.classList.contains('product-button')) {
+        window.location.href = `${window.location.origin}/products/${item.id}`;
+      }
+    });
+
     productsList.append(item);
   });
 }
