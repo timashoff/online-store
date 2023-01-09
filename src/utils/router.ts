@@ -3,6 +3,8 @@ import { cart } from '../pages/cart';
 import { home, homeAction } from '../pages/home/home';
 import { notFound } from '../pages/404/404';
 import { getHTMLElement } from './getHTMLElement';
+import { product } from '../pages/product/product';
+import { getProductId } from './getProductId';
 
 
 const root = getHTMLElement(document, '#root');
@@ -19,10 +21,10 @@ const routes = [
     actions: homeAction,
   },
   {
-    path: '/product/id1',
-    actions: homeAction,
+    page: product(),
+    path: `/products/${getProductId}`,
+    actions: function () { },
   },
-  // { path: '/product/id1' },
   {
     page: notFound(),
     path: '/404',
@@ -38,7 +40,7 @@ export function render() {
       root.innerHTML = '';
       root.appendChild(page);
       route?.actions();
-    } 
+    }
   } else {
     window.location.pathname = '/404';
   }

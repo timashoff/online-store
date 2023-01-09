@@ -1,100 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="product-page">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./product.css">
-  <script src="./product.js" defer></script>
-  <title>Product Page</title>
-</head>
+  <!-- HTML for breadcrumbs -->
+  <div class="breadcrumbs">
+    <a href="/">STORE</a> >
+    <a href="/laptops">LAPTOPS</a> >
+    <a href="/laptops/apple">APPLE</a> > MACBOOK PRO
+  </div>
 
-<body>
-  <!-- HTML Header -->
-  <header>
-    <a href="https://online-store-rs.netlify.app/" class="home-link">
-      <img src="../../assets/icons/logo.svg" class="logo">
-    </a>
-    <span class="total">TOTAL: <span class="total-pay">0000</span> $</span>
-    <a class="cart" href="https://online-store-rs.netlify.app/cart">
-      <div class="cart-wrapper">
-        <div class="purchased" style="background-color: black;">
-          <span class="purchased-items">00</span>
-        </div>
-      </div>
-    </a>
-  </header>
-  <!-- HTML Header END-->
+  <!-- HTML for product images -->
+  <div class="product-images">
+    <img src="../../assets/data/assets/laptop/16-inch-macbook-pro.jpg" alt="MacBook Pro 1" class="product-image"
+      data-zoom="../../assets/data/assets/laptop/16-inch-macbook-pro.jpg">
+    <img src="../../assets/data/assets/laptop/mbp-spacegray-select-202206.jpeg" alt="MacBook Pro 2"
+      class="product-image" data-zoom="../../assets/data/assets/laptop/mbp-spacegray-select-202206.jpeg">
+    <img src="../../assets/data/assets/laptop/MKGR3HN_A_2.png" alt="MacBook Pro 3" class="product-image"
+      data-zoom="../../assets/data/assets/laptop/MKGR3HN_A_2.png">
+    <!-- Add more product images here -->
+  </div>
 
-  <main id="main">
-    <div class="product-page">
+  <!-- HTML for product data -->
+  <div class="product-data">
+    <h1 class="product-name">MacBook Pro</h1>
+    <span class="product-category">Laptops</span>
+    <span class="product-brand"> Apple</span>
+    <span class="product-stock in-stock"> 84 pcs </span>
+    <!-- <span class="product-stock out-of-stock"> out of stock </span> -->
+    <p class="product-description">The new MacBook Pro 13 inch with the M1 chip is a powerful and versatile laptop
+      that is perfect for professionals, students, and everyday users. With its 8-core Apple M1 chip and 8-core GPU,
+      this laptop delivers lightning-fast performance and stunning graphics. It also has a stunning 13-inch Retina
+      display, making it ideal for creative work, entertainment, and multitasking. Additionally, the M1 chip offers
+      long battery life, so you can work or play all day without having to worry about charging. Overall, the
+      MacBook
+      Pro 13 inch with the M1 chip is an excellent choice for anyone looking for a high-performance, reliable, and
+      portable laptop
+      features.</p>
+    <p class="product-price">$1,299.99</p>
+  </div>
 
-      <!-- HTML for breadcrumbs -->
-      <div class="breadcrumbs">
-        <a href="/">STORE</a> >
-        <a href="/laptops">LAPTOPS</a> >
-        <a href="/laptops/apple">APPLE</a> > MACBOOK PRO
-      </div>
+  <!-- HTML for add to cart button -->
+  <button class="btn add-to-cart">Add to Cart</button>
+  <!-- <button disabled class="btn add-to-cart">Add to Cart</button> -->
 
-      <!-- HTML for product images -->
-      <div class="product-images">
-        <img src="../../assets/data/assets/laptop/16-inch-macbook-pro.jpg" alt="MacBook Pro 1" class="product-image"
-          data-zoom="../../assets/data/assets/laptop/16-inch-macbook-pro.jpg">
-        <img src="../../assets/data/assets/laptop/mbp-spacegray-select-202206.jpeg" alt="MacBook Pro 2"
-          class="product-image" data-zoom="../../assets/data/assets/laptop/mbp-spacegray-select-202206.jpeg">
-        <img src="../../assets/data/assets/laptop/MKGR3HN_A_2.png" alt="MacBook Pro 3" class="product-image"
-          data-zoom="../../assets/data/assets/laptop/MKGR3HN_A_2.png">
-        <!-- Add more product images here -->
-      </div>
+  <!-- HTML for quick purchase button -->
+  <button class="btn quick-purchase">Quick Purchase</button>
+  <!-- <button disabled class="btn quick-purchase">Quick Purchase</button> -->
 
-      <!-- HTML for product data -->
-      <div class="product-data">
-        <h1 class="product-name">MacBook Pro</h1>
-        <span class="product-category">Laptops</span>
-        <span class="product-brand"> Apple</span>
-        <span class="product-stock in-stock"> 84 pcs </span>
-        <!-- <span class="product-stock out-of-stock"> out of stock </span> -->
-        <p class="product-description">The new MacBook Pro 13 inch with the M1 chip is a powerful and versatile laptop
-          that is perfect for professionals, students, and everyday users. With its 8-core Apple M1 chip and 8-core GPU,
-          this laptop delivers lightning-fast performance and stunning graphics. It also has a stunning 13-inch Retina
-          display, making it ideal for creative work, entertainment, and multitasking. Additionally, the M1 chip offers
-          long battery life, so you can work or play all day without having to worry about charging. Overall, the
-          MacBook
-          Pro 13 inch with the M1 chip is an excellent choice for anyone looking for a high-performance, reliable, and
-          portable laptop
-          features.</p>
-        <p class="product-price">$1,299.99</p>
-      </div>
-
-      <!-- HTML for add to cart button -->
-      <button class="btn add-to-cart">Add to Cart</button>
-      <!-- <button disabled class="btn add-to-cart">Add to Cart</button> -->
-
-      <!-- HTML for quick purchase button -->
-      <button class="btn quick-purchase">Quick Purchase</button>
-      <!-- <button disabled class="btn quick-purchase">Quick Purchase</button> -->
-
-    </div>
-
-  </main>
-
-  <!-- HTML Footer -->
-  <footer>
-    <a href="https://rs.school/js/" class="rs-logo">
-      <img src="../../assets/icons/courseLogo.svg" class="rs-logo" width="200px">
-    </a>
-
-    <a href="https://online-store-rs.netlify.app/" class="app-name">Quickpart-2023</a>
-
-    <ul class="githubs">
-      <li class="git-link"><a href="https://github.com/timashoff" class="git"><img src="../../assets/icons/github.svg"
-            class="git-logo">timashoff</a></li>
-      <li class="git-link"><a href="https://github.com/sosiskaki11er" class="git"><img
-            src="../../assets/icons/github.svg" class="git-logo">sosiskaki11er</a></li>
-    </ul>
-  </footer>
-  <!-- HTML Footer END -->
-</body>
-
-</html>
+</div>
