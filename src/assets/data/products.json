@@ -206,7 +206,7 @@
             "description" : "видеокарта NVIDIA GeForce GTX 1060, 6144 Мб видеопамяти GDDR5, частота ядра/памяти: 1506/8000 МГц, разъемы DVI, HDMI, DisplayPort x3, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
             "price" : 190,
             "stock" : 270,
-            "brand" : "Nvidia",
+            "brand" : "Palit",
             "categoty" : "video-card",
             "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FpalitGTX1060.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FpalitGTX10602.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
         },
@@ -216,7 +216,7 @@
             "description" : "видеокарта NVIDIA GeForce GTX 1070ti, 8192 Мб видеопамяти GDDR5, частота ядра/памяти: 1506/8000 МГц, разъемы DVI, HDMI, DisplayPort x3, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
             "price" : 400,
             "stock" : 105,
-            "brand" : "Nvidia",
+            "brand" : "Gainward",
             "categoty" : "video-card",
             "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FgainwardGTX1070ti.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FgainwardGTX1070ti2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
         },
@@ -226,7 +226,7 @@
             "description" : "Видеокарта SAPPHIRE NITRO Radeon RX 580 8GB - обновлённая версия Radeon RX 480, построенная на GPU Ellesmere из семейства AMD Polaris, обеспечивает плавный игровой процесс в разрешении 1440p",
             "price" : 390,
             "stock" : 129,
-            "brand" : "AMD",
+            "brand" : "Saphire",
             "categoty" : "video-card",
             "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroRX580.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroRX5802.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
         },
@@ -236,7 +236,7 @@
             "description" : "Низкопрофильная видеокарта XFX RADEON R7 240 2GB на основе архитектуры GCN идеальное бюджетное решение для офиса и дома. Не требует дополнительного питания. ",
             "price" : 98,
             "stock" : 92,
-            "brand" : "AMD",
+            "brand" : "XFX",
             "categoty" : "video-card",
             "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FxfxR7240.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FxfxR72402.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
         },
@@ -246,10 +246,111 @@
             "description" : "видеокарта AMD Radeon RX Vega 56, 8192 Мб видеопамяти HBM2, частота ядра/памяти: 1266/1600 МГц, поддержка режима SLI/CrossFire, разъемы HDMI, DisplayPort x2, поддержка DirectX 12, OpenGL 4.5, Vulkan, работа с 4 мониторами",
             "price" : 470,
             "stock" : 79,
-            "brand" : "AMD",
+            "brand" : "Saphire",
             "categoty" : "video-card",
             "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroVEGA56.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FnitroVEGA562.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 26,
+            "title" : "GIGABYTE GA-Z270P-D3",
+            "description" : "Материнская плата форм-фактора ATX под сокет LGA1151, чипсет Intel Z270, 4 слота DDR4 DIMM 2133-3866 МГц, 6 разъемов SATA3, с поддержкой CrossFire X, 6 слотов PCI-e",
+            "price" : 178,
+            "stock" : 89,
+            "brand" : "Gigabyte",
+            "categoty" : "motherboard",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FGAZ270.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FGAZ202.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 27,
+            "title" : "GIGABYTE GA-Z170X-Gaming 7",
+            "description" : "сокет: LGA1151, название чипсета: Intel Z170, форм-фактор: ATX, производитель процессора: Intel, тип памяти: поддержка ECC/non-ECC, DDR4 DIMM, количество слотов памяти: 4, Количество слотов M.2: 2, Количество слотов PCI-E x16: 3, Количество слотов PCI-E x1: 3, беспроводные интерфейсы: без Wi-Fi, максимальная частота памяти: 3866 МГц, Разъем HDMI на задней панели, игровое, Поддержка SLI/CrossFire: SLI/CrossFireX",
+            "price" : 132,
+            "stock" : 69,
+            "brand" : "Gigabyte",
+            "categoty" : "motherboard",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FGAZ170.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FGAZ1702.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 28,
+            "title" : "ASROCK H81 Pro BTC R2.0",
+            "description" : "Материнская плата форм-фактора ATX под сокет LGA1150, чипсет Intel H81, 2 слота памяти DDR3 DIMM 1066-1600 МГц, 2 разъема SATA2 и 2 разъема SATA3",
+            "price" : 45,
+            "stock" : 257,
+            "brand" : "Asrock",
+            "categoty" : "motherboard",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FH81.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FH812.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 29,
+            "title" : "WD Blue Mobile 500 GB, WD5000MPCK",
+            "description" : "Жесткий диск для ноутбука, объемом 500 Гб, ультратонкий 5 мм. С нестандартным интерфейсным разъемом SFF-8784. ",
+            "price" : 46,
+            "stock" : 342,
+            "brand" : "Western Digital",
+            "categoty" : "hdd",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FWD500.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FWD5002.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 30,
+            "title" : "Corsair RM1000i 1000W",
+            "description" : "Блок питания ATX мощностью 1000 Вт имеет сертификат 80 PLUS Gold, что гарантирует высокую эффективность работы, позволяющую сократить потребление электроэнергии и выброс тепла. Внутренние компоненты высочайшего качества обеспечивают стабильную подачу питания и долговременную надежность",
+            "price" : 245,
+            "stock" : 73,
+            "brand" : "Corsair",
+            "categoty" : "power-supply",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCRM1000.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCRM10002.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 31,
+            "title" : "Cooler Master DP6-9GDSB-R2-GP",
+            "description" : "Кулер для процессора Intel: Socket LGA1150, Socket LGA1151, Socket LGA1155, Socket LGA1156, Крепление на винтах, Совместимость с процессорома Intel Core i7, Core i5, Core i3, Коннектор 3-pin, Вентилятор 95 мм, скорость 2400 об/мин, радиатор из алюминия, уровень шума 25 дБ ",
+            "price" : 29,
+            "stock" : 169,
+            "brand" : "Cooler Master",
+            "categoty" : "cooler",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCM1.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCM12.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 32,
+            "title" : "Cooler Master DP6-9GDSB-0L-GP",
+            "description" : "Кулер для процессора Intel: Socket LGA1150, Socket LGA1151, Socket LGA1155, Socket LGA1156, Крепление на винтах, Совместимость с процессорома Intel Core i7, Core i5, Core i3, Коннектор 3-pin, Вентилятор 95 мм, скорость 2200 об/мин, радиатор из алюминия, уровень шума 24 дБ",
+            "price" : 26,
+            "stock" : 316,
+            "brand" : "Cooler Master",
+            "categoty" : "cooler",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCM2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FCM22.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 33,
+            "title" : "Silicon Power Blaze B10 16GB",
+            "description" : "USB Flash drive с интерфейсом USB 3.0, объемом 16 Гб. Термочувствительный рисунок способен менять цвет от турецкого синего до пылающего красного в зависимости от температуры usb накопителя при работе, что придает флешке Blaze B10 особую индивидуальность и стиль",
+            "price" : 8,
+            "stock" : 325,
+            "brand" : "Silicon Power",
+            "categoty" : "usb-flash",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FSPB10.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FSPB102.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 34,
+            "title" : "Transcend JetFlash 700 16Gb",
+            "description" : "USB Flash drive с интерфейсом USB 3.0, объемом 16 Гб. Материал корпуса выполнен из черного пластика.",
+            "price" : 9,
+            "stock" : 273,
+            "brand" : "Transcend",
+            "categoty" : "usb-flash",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FTJF700.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FTJF7002.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
+        },
+        {
+            "id" : 35,
+            "title" : "USB HUB AgeStar 3UH5",
+            "description" : "3-портовый концентратор USB 3.0 с разъемом для подключения HDD или SSD SATA, 1 x SATA, 3 x USB 3.0 Type A",
+            "price" : 4,
+            "stock" : 152,
+            "brand" : "Age Star",
+            "categoty" : "periphery",
+            "img" : ["https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FAS1.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93","https://firebasestorage.googleapis.com/v0/b/online-store-b4c01.appspot.com/o/img%2FAS2.jpg?alt=media&token=e2ff5efd-d2f9-4778-a438-916d08f2cc93"]
         }
     ]
 }
+
 
